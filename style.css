@@ -15,10 +15,11 @@
 }
 
 .box{
-    width: 97%;
+    width: 320px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 10px;
 }
 
 .left{
@@ -26,8 +27,7 @@
     border-width: thick;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    flex: 1 1 1px;
-    margin-bottom: 10px;
+    flex-grow: 2;
 }
 
 .right{
@@ -35,8 +35,7 @@
     border-width: thick;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    flex: 1 1 1px;
-    margin-top: 10px;
+    flex-grow: 2;
 }
 
 @media only screen and (min-width: 1100px){
